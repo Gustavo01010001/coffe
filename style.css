@@ -35,6 +35,7 @@ section {
     z-index: 99;
     border-bottom: var(--border);
     background: var(--bg);
+    background-color: var(--bg);
 }
 
 .header section {
@@ -76,6 +77,11 @@ section {
     cursor: pointer;
     margin-top: 1rem;
     display: inline-block;
+    border-radius: 0.5rem;
+}
+
+.btn:hover {
+    letter-spacing: 0.1rem;
 }
 
 .home-container {
@@ -105,4 +111,135 @@ section {
     font-weight: 100;
     line-height: 1.8;
     padding: 1rem 0;
+}
+
+.title {
+    font-size: 4rem;
+    color: var(--main-color);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.title span{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.about .row {
+     display: flex;
+     align-items: center;
+     background-color: var(--black);
+     gap: 1.5rem;
+}
+
+.about .row .content {
+    padding: 2rem;
+}
+
+.about .row .content h3 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.about .row .content p {
+   font-size: 1.6rem;
+   color: #fff;
+   padding: 1rem;
+   line-height: 1.8;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.menu .box-container .box {
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+    cursor: pointer;
+}
+
+.menu .box-container .box img {
+    height: 10rem;
+}
+
+.menu .box-container .box h3 {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box .price {
+    color: #fff;
+    font-size: 2,5rem;
+    padding: 0.5rem 0;
+}
+
+.menu .box-container .box .price span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+
+.menu .box-container .box:hover {
+    background-color: #fff;
+}
+
+.menu .box-container .box:hover>* {
+    color: var(--black);
+}
+
+.reviews .box-container .box {
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 3 rem;
+}
+
+.reviews .box-container .box h3 {
+    font-size: 2rem;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.reviews .box-container .box p {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem 0;
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+.reviews .box-container .box .user {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.adress {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .share {
+    padding: 1rem 0;
+}
+
+.footer .share img {
+   margin: 0.3rem;
+   cursor: pointer;
+   border-radius: 50%;
+   padding: 1rem;
+}
+
+.footer .share img:hover {      
+   background-color: var(--main-color);
 }
