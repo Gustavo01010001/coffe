@@ -1,0 +1,1 @@
+This is an e-commerce project that I started some time ago, well...it was supposed to be finished but I haven't had time lately. If you want to download the project to use as a base, feel free to do so 🫡.
